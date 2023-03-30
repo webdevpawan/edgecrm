@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ONESTOP NDT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.svg" alt="Bootstrap" width="147" height="66">
+            </a>
+        </div>
+    </nav>
+    <form class="p-3">
+        <div class="form-wrap">
+            <div class="form-row ">
+                <div class="form-heading">
+                    <h3>Got any questions?</h3>
+                    <span>Let's discuss it over a cup of coffee.</span>
+                </div>
+                <div class="d-flex flex-sm-wrap gap-4 input-wrap">
+                    <div class="d-flex flex-column">
+                        <input type="text" placeholder="Name" id="name">
+                        <span id="name_err_container" class="error"></span>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <input type="text" placeholder="Organisation Name" id="org_name">
+                        <span id="org_name_err_container" class="error"></span>
+
+                    </div>
+                    <div class="d-flex flex-column">
+                        <input type="text" placeholder="Email" id="email">
+                        <span id="email_err_container" class="error"></span>
+
+                    </div>
+                    <div class="d-flex flex-column">
+                        <input type="text" placeholder="Contact Number" id="phone">
+                        <span id="phone_err_container" class="error"></span>
+
+                    </div>
+                    <div class="d-flex flex-column justify-content-end">
+                        <textarea type="text" placeholder="Message" id="message"></textarea>
+                    </div>
+                    <div class="mt-5 ">
+                        <button class="submit-btn " type="submit" id="submit">Submit &nbsp; -></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <section class="mt-4">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15070.389776004266!2d73.1090441!3d19.2127771!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9af72af5525%3A0x8b52ac04d1895c9!2sedge%20CRM!5e0!3m2!1sen!2sin!4v1680083693532!5m2!1sen!2sin"
+                width="100%" height="638" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="map-card">
+                <div class="card-body d-flex flex-column gap-2">
+                    <h3 class="card-title">OnestopNDT</h3>
+                    <p class="info">PAP/R/406 Rabale MIDC Near Dol Electric Company Rabale MIDC, Navi Mumbai - 400701.
+                    </p>
+                    <p class="info">Landline - 022 4131 0099</p>
+                    <p class="info">Google map link</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 p-5 row">
+        <div class="row">
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="card" style="width: 170px; height: 170px;">
+                    <img src="./assets/companies.jpeg" alt="" class="img-thumbanil">
+                </div>
+                <h3 class="mini-heading">Companies</h3>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="card" style="width: 170px; height: 170px;">
+                    <img src="./assets/jobs.webp" alt="" class="img-thumbanil">
+                </div>
+                <h3 class="mini-heading">Jobs</h3>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="card" style="width: 170px; height: 170px;">
+                    <img src="./assets/articles.webp" alt="" class="img-thumbanil">
+                </div>
+                <h3 class="mini-heading">Articles</h3>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="card" style="width: 170px; height: 170px;">
+                    <img src="./assets/webinar.webp" alt="" class="img-thumbanil">
+                </div>
+                <h3 class="mini-heading">Webinars</h3>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="card" style="width: 170px; height: 170px;">
+                    <img src="./assets/gathering.webp" alt="" class="img-thumbanil">
+                </div>
+                <h3 class="mini-heading">Forums</h3>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="card" style="width: 170px; height: 170px;">
+                    <img src="./assets/application.jpeg" alt="" class="img-thumbanil">
+                </div>
+                <h3 class="mini-heading">Application Notes</h3>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="d-flex justify-content-end align-items-center p-5 ">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.svg" alt="Bootstrap" width="147" height="66" class="m-3 filter-white">
+            </a>
+        </div>
+        <div>
+            <hr class="footer-line">
+            <span class="footer-heading p-5">What is One Stop NDT?</span>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
